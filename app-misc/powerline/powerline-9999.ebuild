@@ -51,7 +51,7 @@ src_install() {
 	font_src_install
 	if use vim ; then
 		insinto /usr/share/vim/vimfiles/plugin
-		doins powerline/bindings/vim/powerline.vim
+		doins powerline/bindings/vim/plugin/powerline.vim
 	fi
 	# rm powerline/bindings/vim/powerline.vim
 	if use zsh ; then
