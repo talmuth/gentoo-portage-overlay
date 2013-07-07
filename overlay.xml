@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>talmuth</name>
+    <description>talmuths personal staff</description>
+    <homepage>https://github.com/talmuth/</homepage>
+    <owner>
+      <email>denis.lozko@gmail.com</email>
+    </owner>
+    <source type="git">https://github.com/talmuth/gentoo-portage-overlay</source>
+    <feed>https://github.com/talmuth/gentoo-portage-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>
